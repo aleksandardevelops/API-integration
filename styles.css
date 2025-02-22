@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #f9f7f3;
+}
+
+h1 {
+  color: #0fa3b1;
+  font-size: 3em;
+}
+
+.giphy {
+  border: 30px solid #b5e2fa;
+  border-radius: 10px;
+}
