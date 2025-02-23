@@ -18,3 +18,7 @@ h1 {
   border: 30px solid #b5e2fa;
   border-radius: 10px;
 }
+
+.search-container {
+  margin-bottom: 2em;
+}

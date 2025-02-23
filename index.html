@@ -7,19 +7,16 @@
   </head>
   <body>
     <h1>Super Simple Cat Displayer</h1>
+    <form class="search-container">
+      <input
+        type="text"
+        Search="Search for your favorite GIF"
+        id="search-field"
+      />
+      <button id="search-button" type="submit">Search</button>
+    </form>
+
     <img class="giphy" src="#" />
-    <script>
-      const img = document.querySelector('img');
-      fetch(
-        'https://api.giphy.com/v1/gifs/translate?api_key=tatC4IzhmeaMqo83blsBNLEJmDj9qnzC&s=cats',
-        { mode: 'cors' }
-      )
-        .then(function (response) {
-          return response.json();
-        })
-        .then(function (response) {
-          img.src = response.data.images.original.url;
-        });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
