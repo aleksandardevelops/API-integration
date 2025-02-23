@@ -22,3 +22,38 @@ h1 {
 .search-container {
   margin-bottom: 2em;
 }
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+#search-field {
+  width: 300px;
+  font-size: 1.5em;
+  padding: 0.2em;
+  border-radius: 10px;
+}
+
+#search-button {
+  font-size: 1em;
+  border-radius: 10px;
+  padding: 0 1em;
+  background-color: #07646d;
+  color: #ffffff;
+}
+
+#search-button:hover {
+  font-size: 1em;
+  border-radius: 10px;
+  padding: 0 1em;
+  background-color: #06555cc5;
+}
+
+.giphy {
+  display: none; /* Hide the image by default */
+  border: 30px solid #b5e2fa;
+  border-radius: 10px;
+}
